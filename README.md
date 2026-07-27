@@ -26,13 +26,7 @@ git remote add origin https://github.com/<your-username>/<your-repo>.git
 git push -u origin main
 ```
 
-## Deploy on Vercel
-1. Go to https://vercel.com/new
-2. Import the GitHub repo you just pushed
-3. Framework preset: **Other** (it's a static site, no build command needed)
-4. Click **Deploy**
 
-That's it — Vercel will give you a live `.vercel.app` URL, and you can add a custom domain later from the project's Settings → Domains.
 
 ## Editing content
 - Bio, skills, and project text live directly in `index.html`
